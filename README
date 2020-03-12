@@ -3,7 +3,13 @@
 ### 爬人教版电子课本
 
 * 预先建立 人教版 目录
-* 执行时间建议加入 import time，通过 time.sleep()缓解服务器端压力
+* 执行时间建议加入
+```
+import time
+...
+time.sleep()
+```
+通过 time.sleep()缓解服务器端压力
 * 错峰出行，爱护资源
 
 ### 获取Mysql中未用id
